@@ -12,10 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Resources\lorem-ipsum.txt" />
-    <EmbeddedResource Include="Resources\lorem-ipsum.txt" />
-    <None Remove="Resources\borneo.jpg" />
     <EmbeddedResource Include="Resources\borneo.jpg" />
+    <EmbeddedResource Include="Resources\Program.html" />
   </ItemGroup>
 
   <ItemGroup>

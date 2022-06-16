@@ -24,7 +24,7 @@ Retrieving information from embedded resources in a Blazor WASM application
   {
     using var txtStrm = Assembly
       .GetExecutingAssembly()
-      .GetManifestResourceStream("BlazorResources.Resources.lorem-ipsum.txt");
+      .GetManifestResourceStream("BlazorResources.Resources.Program.html");
     using var tr = new StreamReader(txtStrm);
     _rendered = tr.ReadToEnd();
 
